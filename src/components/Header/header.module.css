@@ -1,0 +1,8 @@
+.header {
+    border-bottom: 1px solid #cdcdcd;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: #a29bfe;
+    background-image: linear-gradient(to top, #2c3e50, #2c3e50, #2c3e50, #2c3e50);
+}
