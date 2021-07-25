@@ -7,6 +7,8 @@ import styled from "styled-components";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
+import HocExampleOne from "./pages/HocExampleOne";
+import HocExampleTwo from "./pages/HocExampleTwo";
 
 const AppWrapper = styled.div`
   max-width: 1170px;
@@ -32,6 +34,8 @@ const Routing = (_) => {
             <Router>
                 <Switch>
                     <Route exact component={Home} path="/" />
+                    <Route exact component={HocExampleOne} path="/hoc/exampleone" />
+                    <Route exact component={HocExampleTwo} path="/hoc/exampletwo" />
                 </Switch>
             </Router>
             <Footer />
